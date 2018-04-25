@@ -1,12 +1,12 @@
 import os
-from distutils.core import setup
+from setuptools import setup, find_packages
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 
 
 setup(
     name = 'stamps',
-    packages = ['stamps'],
+    packages = find_packages(exclude=['contrib', 'docs', 'tests']),
     license = 'MIT',
     version = VERSION,
     description = 'Spatial Temporal Analysis and Mapping Python Suite',
@@ -17,8 +17,10 @@ setup(
     url = 'https://github.com/stemlab689/stamps',
     download_url = 'https://github.com/stemlab689/stamps/archive/{v}.tar.gz'\
         .format(v=VERSION),
-    keywords = ['analysis', 'mapping', 'stamps'],
-    classifiers=[
+    keywords = 'analysis mapping stamps',
+    classifiers = [
+        'Development Status :: 3 - Alpha',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
