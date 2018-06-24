@@ -1,5 +1,5 @@
 # Move to gitlab
-We are move this project to gitlab: 
+We move this project to gitlab: 
 https://gitlab.com/STEMLabTW/stamps
 
 # STAMPS
