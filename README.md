@@ -1,3 +1,7 @@
+# Move to gitlab
+We are now move this project to gitlab: 
+https://gitlab.com/STEMLabTW/stamps
+
 # STAMPS
 Spatial Temporal Analysis and Mapping Python Suite
 
